@@ -16,7 +16,6 @@ def GeneratePassword (passLength):
     return finalOutput
 import CreatePasswords as MyPassword
 
-
 while 1:
     userPasswordLength = int(input("Enter Length For Your Password: \n"))
     print(MyPassword.GeneratePassword(userPasswordLength))
